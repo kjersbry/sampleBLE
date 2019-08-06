@@ -26,7 +26,7 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "Plugin.BLE/2.0.1": {
+      "Plugin.BLE/2.1.0-pre1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {},
@@ -200,10 +200,10 @@
         "netstandard.library.nuspec"
       ]
     },
-    "Plugin.BLE/2.0.1": {
-      "sha512": "T1qiiOGwt931Pn2cEBB6S+YAnvFyjVpzbsYzG/MnqJZEuJisLjshRhqrae/VGs1ESHlqKmSL00OM4ZD/ecy1fA==",
+    "Plugin.BLE/2.1.0-pre1": {
+      "sha512": "tsaGLDpFsCzqhvUbitiKoHkJ1gOI9u8xRGguoTfs8583khMWS0dypMw1g3OWaOQKBpRxArQwP+IFO4xDvsT4rA==",
       "type": "package",
-      "path": "plugin.ble/2.0.1",
+      "path": "plugin.ble/2.1.0-pre1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -212,7 +212,6 @@
         "lib/MonoAndroid/Plugin.BLE.Abstractions.pdb",
         "lib/MonoAndroid/Plugin.BLE.XML",
         "lib/MonoAndroid/Plugin.BLE.dll",
-        "lib/MonoAndroid/Plugin.BLE.dll.mdb",
         "lib/MonoAndroid/Plugin.BLE.pdb",
         "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.deps.json",
         "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll",
@@ -226,7 +225,12 @@
         "lib/netstandard2.0/Plugin.BLE.deps.json",
         "lib/netstandard2.0/Plugin.BLE.dll",
         "lib/netstandard2.0/Plugin.BLE.pdb",
-        "plugin.ble.2.0.1.nupkg.sha512",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.deps.json",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.dll",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.pdb",
+        "lib/xamarinmac20/Plugin.BLE.macOS.dll",
+        "lib/xamarinmac20/Plugin.BLE.macOS.xml",
+        "plugin.ble.2.1.0-pre1.nupkg.sha512",
         "plugin.ble.nuspec"
       ]
     },
@@ -380,35 +384,33 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "NETStandard.Library >= 2.0.3",
-      "Plugin.BLE >= 2.0.1",
+      "Plugin.BLE >= 2.1.0-pre1",
       "Xamarin.Forms >= 3.4.0.1008975"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kjersti.brynestad\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/imatis/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kjersti.brynestad\\source\\repos\\App1\\App1\\App1\\App1.csproj",
+      "projectUniqueName": "/Users/imatis/sampleBLE/App1/App1/App1.csproj",
       "projectName": "App1",
-      "projectPath": "C:\\Users\\kjersti.brynestad\\source\\repos\\App1\\App1\\App1\\App1.csproj",
-      "packagesPath": "C:\\Users\\kjersti.brynestad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kjersti.brynestad\\source\\repos\\App1\\App1\\App1\\obj\\",
+      "projectPath": "/Users/imatis/sampleBLE/App1/App1/App1.csproj",
+      "packagesPath": "/Users/imatis/.nuget/packages/",
+      "outputPath": "/Users/imatis/sampleBLE/App1/App1/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\kjersti.brynestad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/imatis/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -433,7 +435,7 @@
           },
           "Plugin.BLE": {
             "target": "Package",
-            "version": "[2.0.1, )"
+            "version": "[2.1.0-pre1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

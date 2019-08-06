@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "Plugin.BLE/2.0.1": {
+      "Plugin.BLE/2.1.0-pre1": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
@@ -140,7 +140,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Plugin.BLE": "2.0.1",
+          "Plugin.BLE": "2.1.0-pre1",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -152,7 +152,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "Plugin.BLE/2.0.1": {
+      "Plugin.BLE/2.1.0-pre1": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
@@ -290,7 +290,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Plugin.BLE": "2.0.1",
+          "Plugin.BLE": "2.1.0-pre1",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -302,7 +302,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "Plugin.BLE/2.0.1": {
+      "Plugin.BLE/2.1.0-pre1": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
@@ -440,7 +440,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Plugin.BLE": "2.0.1",
+          "Plugin.BLE": "2.1.0-pre1",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -452,7 +452,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "Plugin.BLE/2.0.1": {
+      "Plugin.BLE/2.1.0-pre1": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll": {},
@@ -590,7 +590,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Plugin.BLE": "2.0.1",
+          "Plugin.BLE": "2.1.0-pre1",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "compile": {
@@ -603,10 +603,10 @@
     }
   },
   "libraries": {
-    "Plugin.BLE/2.0.1": {
-      "sha512": "T1qiiOGwt931Pn2cEBB6S+YAnvFyjVpzbsYzG/MnqJZEuJisLjshRhqrae/VGs1ESHlqKmSL00OM4ZD/ecy1fA==",
+    "Plugin.BLE/2.1.0-pre1": {
+      "sha512": "tsaGLDpFsCzqhvUbitiKoHkJ1gOI9u8xRGguoTfs8583khMWS0dypMw1g3OWaOQKBpRxArQwP+IFO4xDvsT4rA==",
       "type": "package",
-      "path": "plugin.ble/2.0.1",
+      "path": "plugin.ble/2.1.0-pre1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -615,7 +615,6 @@
         "lib/MonoAndroid/Plugin.BLE.Abstractions.pdb",
         "lib/MonoAndroid/Plugin.BLE.XML",
         "lib/MonoAndroid/Plugin.BLE.dll",
-        "lib/MonoAndroid/Plugin.BLE.dll.mdb",
         "lib/MonoAndroid/Plugin.BLE.pdb",
         "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.deps.json",
         "lib/Xamarin.iOS10/Plugin.BLE.Abstractions.dll",
@@ -629,7 +628,12 @@
         "lib/netstandard2.0/Plugin.BLE.deps.json",
         "lib/netstandard2.0/Plugin.BLE.dll",
         "lib/netstandard2.0/Plugin.BLE.pdb",
-        "plugin.ble.2.0.1.nupkg.sha512",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.deps.json",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.dll",
+        "lib/xamarinmac20/Plugin.BLE.Abstractions.pdb",
+        "lib/xamarinmac20/Plugin.BLE.macOS.dll",
+        "lib/xamarinmac20/Plugin.BLE.macOS.xml",
+        "plugin.ble.2.1.0-pre1.nupkg.sha512",
         "plugin.ble.nuspec"
       ]
     },
@@ -788,39 +792,36 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "App1 >= 1.0.0",
-      "Plugin.BLE >= 2.0.1",
       "Xamarin.Forms >= 3.4.0.1008975"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kjersti.brynestad\\.nuget\\packages\\": {}
+    "/Users/imatis/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\kjersti.brynestad\\source\\repos\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
+      "projectUniqueName": "/Users/imatis/sampleBLE/App1/App1.iOS/App1.iOS.csproj",
       "projectName": "App1.iOS",
-      "projectPath": "C:\\Users\\kjersti.brynestad\\source\\repos\\App1\\App1\\App1.iOS\\App1.iOS.csproj",
-      "packagesPath": "C:\\Users\\kjersti.brynestad\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\kjersti.brynestad\\source\\repos\\App1\\App1\\App1.iOS\\obj\\",
+      "projectPath": "/Users/imatis/sampleBLE/App1/App1.iOS/App1.iOS.csproj",
+      "packagesPath": "/Users/imatis/.nuget/packages/",
+      "outputPath": "/Users/imatis/sampleBLE/App1/App1.iOS/obj/",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\kjersti.brynestad\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/imatis/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "xamarinios10"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\kjersti.brynestad\\source\\repos\\App1\\App1\\App1\\App1.csproj": {
-              "projectPath": "C:\\Users\\kjersti.brynestad\\source\\repos\\App1\\App1\\App1\\App1.csproj"
+            "/Users/imatis/sampleBLE/App1/App1/App1.csproj": {
+              "projectPath": "/Users/imatis/sampleBLE/App1/App1/App1.csproj"
             }
           }
         }
@@ -829,10 +830,6 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
-          "Plugin.BLE": {
-            "target": "Package",
-            "version": "[2.0.1, )"
-          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[3.4.0.1008975, )"

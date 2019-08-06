@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
     <MtouchArch>ARM64</MtouchArch>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: kjerstibry@icloud.com (U6ZC4CAWHR)</CodesignKey>
     <MtouchDebug>true</MtouchDebug>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
@@ -153,7 +153,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\App1\App1.csproj">
-      <Project>{5BEA406A-A2A6-4D64-90F2-CD29BF4073EB}</Project>
+      <Project>{CC4C9FC6-D358-4461-A469-566EFF17017D}</Project>
       <Name>App1</Name>
     </ProjectReference>
   </ItemGroup>

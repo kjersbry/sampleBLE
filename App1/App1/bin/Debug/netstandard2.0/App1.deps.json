@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "77ac45fa75810ef28ecf58b94804c46f567cccb4"
+    "signature": "f3cc56d165c68496cd2dfd509bd017db9894b8ca"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,6 +10,7 @@
       "App1/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
+          "Plugin.BLE": "2.1.0-pre1",
           "Xamarin.Forms": "3.4.0.1008975"
         },
         "runtime": {
@@ -20,6 +21,18 @@
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Plugin.BLE/2.1.0-pre1": {
+        "runtime": {
+          "lib/netstandard2.0/Plugin.BLE.Abstractions.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          },
+          "lib/netstandard2.0/Plugin.BLE.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "Xamarin.Forms/3.4.0.1008975": {
@@ -59,6 +72,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Plugin.BLE/2.1.0-pre1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tsaGLDpFsCzqhvUbitiKoHkJ1gOI9u8xRGguoTfs8583khMWS0dypMw1g3OWaOQKBpRxArQwP+IFO4xDvsT4rA==",
+      "path": "plugin.ble/2.1.0-pre1",
+      "hashPath": "plugin.ble.2.1.0-pre1.nupkg.sha512"
     },
     "Xamarin.Forms/3.4.0.1008975": {
       "type": "package",
