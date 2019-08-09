@@ -21,6 +21,9 @@ namespace App1
 
         public Bluetooth()
         {
+            var restorationIdentifier = DependencyService.Get<IRestorationIdentifier>();
+            if (restorationIdentifier != null) restorationIdentifier.Use("BluetoothManager");
+
             ble = CrossBluetoothLE.Current;
             adapter = CrossBluetoothLE.Current.Adapter;
             deviceList = new ObservableCollection<IDevice>();
@@ -50,5 +53,11 @@ namespace App1
             }
             return device;
         }
+    }
+
+
+    public interface IRestorationIdentifier
+    {
+        void Use(string restorationIdentifier);
     }
 }
