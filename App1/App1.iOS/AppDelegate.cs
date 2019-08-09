@@ -30,6 +30,7 @@ namespace App1.iOS
             RestorationIdentifier res = new RestorationIdentifier();
             res.Use("BluetoothManager");
             MainPage.Bluetooth.ble = CrossBluetoothLE.Current;
+            //or just MainPage.Bluetooth = new Bluetooth();
 
             return base.FinishedLaunching(app, options);
         }
