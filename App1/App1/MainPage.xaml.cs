@@ -7,7 +7,7 @@ namespace App1
 {
     public partial class MainPage : ContentPage
     {
-        Bluetooth ble;
+        static public Bluetooth ble;
         public MainPage()
         {
             InitializeComponent();

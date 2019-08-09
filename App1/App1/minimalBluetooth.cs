@@ -14,7 +14,7 @@ namespace App1
 {
     public class Bluetooth
     {
-        IBluetoothLE ble;
+        public IBluetoothLE ble;
         public BluetoothState State { get { return ble.State; } }
         IAdapter adapter;
         ObservableCollection<IDevice> deviceList;

@@ -4,6 +4,8 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Plugin.BLE;
+using Xamarin.Forms;
 
 namespace App1.iOS
 {
@@ -25,7 +27,19 @@ namespace App1.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
+            RestorationIdentifier res = new RestorationIdentifier();
+            res.Use("BluetoothManager");
+            MainPage.Bluetooth.ble = CrossBluetoothLE.Current;
+
             return base.FinishedLaunching(app, options);
+        }
+
+        public override void DidEnterBackground(UIApplication application)
+        {
+            //restore bluetooth manager
+            RestorationIdentifier res = new RestorationIdentifier();
+            res.Use("BluetoothManager");
+            MainPage.Bluetooth.ble = CrossBluetoothLE.Current;
         }
     }
 }
